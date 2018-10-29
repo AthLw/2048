@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#content{
+    height: 565px;
+    width: 480px;
+    margin-top: 60px;
+    margin-left: 500px;
+    padding: 10px;                  
+    background-color: rgb(204, 187, 164);
+}
+
+.gridcell{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin:10px;
+    position: relative;
+    
+    border-radius: 7px;
+    background-color: rgb(228, 210, 184);
+}
+
+.number{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    line-height: 95px;
+    position: relative;
+    
+    background-color: grey;
+    border-radius: 7px;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+#score-panel{
+    padding-top: 10px;
+    width: 400px;
+    height: 100px;
+    float: left;
+    margin-bottom: -20px;
+    
+}
+
+
+#score-sign{
+    color: red;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+#score-num{
+    font-size: 50px;
+    color: blue;
+    position: relative;
+    left: 160px;
+}
